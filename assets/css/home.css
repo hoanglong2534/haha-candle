@@ -79,7 +79,7 @@ margin-bottom: -15%;
     
 }
 .section-two .carousel {
-    height: 150%;
+    height: 200%;
    
 }
 
@@ -479,13 +479,13 @@ swiper-slide .inner-cont {
 
 .section-seven .container-fluid .inner-left p b {
     font-size: 20px;
-    color: var(--color-two);
+    color: var(--color-text1);
     font-weight: 800;
 }
 
 .section-seven .container-fluid .inner-left .desc {
     font-size: 24px;
-    color: var(--color-two);
+    color: var(--color-text1);
 
 }
 
@@ -1005,7 +1005,7 @@ footer .eire {
     font-size: 100px;
     text-align: center;
     position: relative;
-    top: -100px;
+    top: -10px;
 }
 
 footer .eire .logo1 {
