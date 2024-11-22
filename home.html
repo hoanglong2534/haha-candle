@@ -40,11 +40,12 @@
           </div>
           <!-- end dropdown  -->
           <a class="nav-link" href="/product/product_nen_thom.html"
-            style="font-weight: 800; font-size: 18px; color: black;">SẢN
+            style="font-weight: 800; font-size: 18px; color: black; padding-right: 40px;">SẢN
             PHẨM</span></a>
         </li>
         <li class="nav-item mx-4">
-          <a class="nav-link" href="#" style="font-weight: 800; font-size: 18px; color: black;">VỀ CHÚNG TÔI</a>
+          <a class="nav-link" href="#" style="font-weight: 800; font-size: 18px; color: black; padding-right: 40px;">VỀ
+            CHÚNG TÔI</a>
         </li>
         <li class="nav-item mx-4">
           <a class="nav-link" style="font-weight: 800; font-size: 18px; color: black;" href="#">HỎI ĐÁP</a>
@@ -53,7 +54,8 @@
     </div>
     <div class="collapse navbar-collapse mr-auto" style="flex-grow: 0"></div>
     <a href="/home.html" class="navbar-logo" style="flex-grow: 1; text-align: center;">
-      <img src="/assets/images/logo/Untitled-1.gif" alt="Logo" style="width: 110px; height: 110px;">
+      <img src="/assets/images/logo/Untitled-1.gif" alt="Logo"
+        style="width: 110px; height: 110px;left: 10%; position: relative;">
     </a>
     </div>
     <div class="collapse navbar-collapse" style="flex-grow: 0">
@@ -63,8 +65,8 @@
         </li>
         <li class="nav-item mx-4">
           <input
-            style="width: 249px; height: 41px; margin-top: 45px; border-radius: 20px; opacity: 80%; padding-left: 35px;">
-          <i class="fa-solid fa-magnifying-glass" style="position: relative; left: -240px;"></i>
+            style="width: 249px; height: 41px; margin-top: 45px; border-radius: 20px; opacity: 80%; position: relative; left: 11%;padding-left: 35px;">
+          <i class="fa-solid fa-magnifying-glass" style="position: relative; left: -210px;"></i>
         </li>
         <li class="nav-item mx-4">
           <a id="cart" href="#"><i class="fa-solid fa-cart-shopping "
@@ -81,13 +83,52 @@
 
   <!-- section two -->
   <div class="section-two">
-    <div class="image">
-      <div class="content">
-        <p>TẠO NÊN PHONG CÁCH RIÊNG DÀNH CHO BẠN</p>
-        <h1>Với nến thơm, mọi <br> không gian đều trở <br>nên đặc biệt</h1>
-        <button>Khám phá ngay</button>
+
+    <!-- carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"
+      style="max-width: 100%; margin: auto;">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="/assets/images/home/banner.jpg" alt="First slide"
+            style="aspect-ratio: 19/8; object-fit: cover; object-position: 50% 30%;">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/assets/images/home/1 (1).webp" alt="Second slide"
+            style="aspect-ratio: 19/8; object-fit: cover; object-position: 50% 30%; ">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/assets/images/home/1 (4).jpg" alt="Third slide"
+            style="aspect-ratio: 19/8; object-fit: cover; object-position: 50% 30%;">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/assets/images/home/1 (4).webp" alt="Fourth slide"
+            style="aspect-ratio: 19/8; object-fit: cover; object-position: 50% 30%;">
+        </div>
       </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
+
+    <!-- end carousel -->
+
+    <div class="content">
+      <p>TẠO NÊN PHONG CÁCH RIÊNG DÀNH CHO BẠN</p>
+      <h1>Với nến thơm, mọi <br> không gian đều trở <br>nên đặc biệt</h1>
+      <button class="btn">Khám phá ngay</button>
+    </div>
+
   </div>
   <!-- end-section-two -->
 
