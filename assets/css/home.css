@@ -54,7 +54,7 @@ body {
     background-color: #f1f1f1;
 }
 
-@media (max-width: 1295px) {
+@media (max-width: 1326px) {
     .header .fa-bars {
         display: block;
         font-size: 24px;
@@ -171,6 +171,7 @@ margin-bottom: -15%;
 
 
 /* end section-two */
+
 /* section-three */
 .section-three {
     padding: 80px 0;
