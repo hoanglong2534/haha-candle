@@ -249,8 +249,8 @@ body {
 }
 
 .section-three #hang2 .box:nth-child(3) {
-    background-image: url(../../images/product_tinhDau/bg_4438852_100000_m.webp);
-    background-position: 100% 80%;
+    background-image: url(../../images/product_tinhDau/nenthoms.png);
+    background-size: cover;
 }
 
 .section-three #hang2 .box:nth-child(4) {

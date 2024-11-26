@@ -77,202 +77,37 @@ body {
 
 }
 
-
 /* end section-one */
 
 /* section-two */
-.section-two {
-    position: relative;
-    margin-bottom: 5%;
+
+.section-two{
+    margin: 10% 5% 10% 0;
+    padding: 0 5%;
+  
 }
 
-.section-two .image {
-    background-image: url(../../images/product_setQua/banner.jpg);
-    aspect-ratio: 1928/800;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% 80%;
-}
-
-.section-two h1 {
-    position: absolute;
-    font-size: 4rem;
-    position: relative;
-    top: 70%;
-    left: 5%;
+h1{
+    font-size: 40px;
+    font-weight: 900;
     font-family: var(--font2);
-    font-weight: 800;
-    max-width: 90%;
-    margin-bottom: 0px;
-    padding-bottom: 0;
 }
 
- .section-two .text {
-    display: flex;
-    padding-left: 3%;
-} 
-
- .section-two .text a {
+a{
     color: var(--color-text1);
-    margin-right: 20px;
+    text-decoration: underline;
+    font-size: 20px;
 }
 
-.section-two .text a:hover {
-    color: var(--color-two);
-    text-transform: none;
+.container-fluid p,b, li{
+    font-size: 20px;
 }
-
-
-@media (max-width: 767px) {
-    .section-two h1 {
-        padding-top: 110px;
-        font-size: 2rem;
-
-    }
+h3{
+    font-size: 22px;
+    font-weight: 900;
+    font-family: var(--font2);
 }
-
-/* end section-two */
-
-/* section-three */
-
-/* btn */
-.section-three .inner-btn {
-    padding: 20px 25px;
-}
-
-.section-three .offcanvas {
-    width: 500px;
-}
-
-.section-three .btn-primary,
-.section-three .btn-secondary {
-    background-color: #fff;
-    color: var(--color-text1);
-    padding: 10px 12px 5px 5px;
-    border-radius: 20px;
-    border: none;
-}
-
-.section-three .offcanvas-body li {
-    list-style-type: none;
-}
-
-.section-three .offcanvas-body a {
-    color: var(--color-text1);
-}
-
-.section-three .offcanvas-body a:hover {
-    color: var(--color-text2);
-}
-
-.section-three .fa-solid {
-    padding-left: 10px;
-    scale: 0.95;
-    padding-bottom: 0;
-}
-
-.section-three .inner-btn {
-    display: flex;
-    justify-content: space-between;
-}
-
-/* product */
-.section-three .inner-product {
-    padding: 20px 15px;
-}
-
-.section-three .inner-product .box {
-    background-size: cover;
-
-    background-position: center;
-    aspect-ratio: 1/1.05;
-    flex-direction: column;
-    box-shadow: 0 2px 8px rgba(20, 19, 19, 0.1);
-    scale: 0.9;
-    padding-top: 20px;
-    position: relative;
-}
-
-.section-three .inner-product .box h3 {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.section-three .inner-product .box p {
-    color: var(--color-text1);
-    font-size: 1.2rem;
-    margin: 0;
-}
-
-.section-three .inner-product .box a {
-    color: var(--color-text1);
-    text-decoration: none;
-    position: absolute;
-    bottom: 5%;
-    right: 10%;
-    font-size: 1.2rem;
-}
-
-.section-three .inner-product .box a:hover {
-    color: var(--color-text2);
-}
-
-.section-three #hang1 .box:first-child {
-    background-image: url(../../images/product_setQua/3c9eb2aa704695feb42889a2f6a7b37d.jpg);
-}
-
-.section-three #hang1 .box:nth-child(2) {
-    background-image: url(../../images/product_setQua/2c7f3203a39636a3fb27adbc2c8a00d0.jpg);
-}
-
-.section-three #hang1 .box:nth-child(3) {
-    background-image: url(../../images/product_setQua/3c9eb2aa704695feb42889a2f6a7b37d.jpg);
-}
-
-.section-three #hang1 .box:nth-child(4) {
-    background-image: url(../../images/product_setQua/7a893ed6a8518683b85b4144a94487bd\ \(1\).jpg);
-}
-
-
-.section-three #hang2 .box:first-child {
-    background-image: url(../../images/product_setQua/il_fullxfull.6309441325_frnv.webp);
-}
-
-.section-three #hang2 .box:nth-child(2) {
-    background-image: url(../../images/product_setQua/ee96b58ecfe854c5ee950648a0d6ffcd\ \(1\).jpg);
-}
-
-.section-three #hang2 .box:nth-child(3) {
-    background-image: url(../../images/product_setQua/il_570xN.6309545027_ccrj.avif);
-}
-
-.section-three #hang2 .box:nth-child(4) {
-    background-image: url(../../images/product_setQua/il_fullxfull.6309441325_frnv.webp);
-}
-
-
-
-/* phân trang */
-
-.listPage{
-    padding:10px;
-    text-align: center;
-    list-style: none;
-}
-.listPage li{
-    padding: 10px 20px;
-    display: inline-block;
-    margin:0 10px;
-    cursor: pointer;
-    border-radius: 50%;
-    font-weight: 800;
-}
-.listPage .active{
-    background-color:var(--color-text2);
-    color: var(--color-one);
-}
-/* end - section-three */
-
+/* end-section-two */
 
 /* section-four - footer*/
 
