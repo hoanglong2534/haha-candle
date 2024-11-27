@@ -107,12 +107,12 @@ body {
     padding-bottom: 0;
 }
 
- .section-two .text {
+.section-two .text {
     display: flex;
     padding-left: 3%;
-} 
+}
 
- .section-two .text a {
+.section-two .text a {
     color: var(--color-text1);
     margin-right: 20px;
 }
@@ -254,216 +254,41 @@ body {
 
 /* phân trang */
 
-.listPage{
-    padding:10px;
+.listPage {
+    padding: 10px;
     text-align: center;
     list-style: none;
 }
-.listPage li{
+
+.listPage li {
     padding: 10px 20px;
     display: inline-block;
-    margin:0 10px;
+    margin: 0 10px;
     cursor: pointer;
     border-radius: 50%;
     font-weight: 800;
 }
-.listPage .active{
-    background-color:var(--color-text2);
+
+.listPage .active {
+    background-color: var(--color-text2);
     color: var(--color-one);
 }
+
 /* end - section-three */
 
 
-/* section-four - footer*/
-
-/* footer / content */
-footer .container-fluid .content {
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
-    height: 80px;
-    padding-top: 0.5%;
-    align-items: center;
-}
-
-footer .container-fluid .content .inner-left {
-    display: flex;
-    align-items: center;
-    gap: 5%;
-}
-
-footer .container-fluid .content .inner-left p {
-    font-size: 100%;
-    font-weight: 500;
-    padding-top: 20px;
-}
-
-
-footer .container-fluid .content .inner-left input {
-    background-color: #fff;
-    border-radius: 20px;
-    width: 400px;
-    height: 40px;
-    padding-left: 10px;
-    border: none;
-
-}
-
-
-footer .container-fluid .content .inner-left button {
-    border: none;
-    background-color: var(--color-three);
-    color: #fff;
-    width: 150px;
-    height: 40px;
-    font-weight: 500;
-    border-radius: 20px;
-}
-
-footer .container-fluid .content .inner-left button:hover {
-    background-color: #fff;
-    color: var(--color-three);
-    border: 2px solid var(--color-three);
-    font-weight: 800;
-}
-
-footer .container-fluid .content .inner-right a {
-    color: #656362;
-}
-
-
-footer .container-fluid .content .inner-right {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-footer .container-fluid .content .inner-right p {
-    font-size: 100%;
-    font-weight: 500;
-    margin: 0;
-}
-
-footer .container-fluid .content .inner-right i {
-    font-size: 180%;
-    margin-right: 10px;
-    opacity: 80%;
-}
-
-footer .container-fluid .content .inner-right a:last-child i {
-    margin-right: 0;
-}
-
-footer .container-fluid .content .inner-right i:hover {
-    color: var(--color-three);
-}
-
-@media (max-width:1199.98px) {
-    footer .container-fluid .content p {
-        font-size: 150%;
-    }
-
-    footer .container-fluid .content .inner-left button {
-        width: 100px;
-        font-weight: 500;
-        border-radius: 20px;
-        font-size: 15px;
-    }
-
-
-    footer .container-fluid .content .inner-left input {
-
-        width: 250px;
-        height: 40px;
-        padding-left: 10px;
-        border: none;
-
-    }
-
-}
-
-@media (max-width: 991.98px) {
-    footer .container-fluid .container p {
-        font-size: 10px;
-    }
-
-    footer .container-fluid .content .inner-left input {
-
-        width: 180px;
-        height: 40px;
-        padding-left: 10px;
-        border: none;
-        font-size: 14px;
-    }
-
-    footer .container-fluid .content .inner-left button {
-        width: 100px;
-        font-weight: 500;
-        border-radius: 20px;
-        font-size: 12px;
-    }
-
-    footer .container-fluid .content .inner-right i {
-        font-size: 100%;
-        margin-right: 3px;
-        opacity: 80%;
-    }
-
-    footer .container-fluid .content .inner-right i {
-        font-size: 150%;
-
-    }
-
-}
-
-@media (max-width: 834px) {
-    footer .container-fluid .content .inner-left input {
-
-        width: 150px;
-        height: 40px;
-        padding-left: 10px;
-        border: none;
-        font-size: 14px;
-    }
-
-    footer .container-fluid .content .inner-left button {
-        width: 100px;
-        font-weight: 500;
-        border-radius: 20px;
-        font-size: 12px;
-    }
-
-}
-
-@media (max-width: 767.98px) {
-    footer .container-fluid .content .inner-left input {
-
-        width: 140px;
-        height: 40px;
-        padding-left: 10px;
-        border: none;
-        font-size: 14px;
-    }
-
-    footer .container-fluid .content .inner-left button {
-        width: 60px;
-    }
-
-    footer .container-fluid .content .inner-right i {
-        font-size: 150%;
-
-    }
-
-}
-
-
-/* footer / box */
-
+/* section eleven: FOOTER */
 
 footer .box {
     padding: 50px 100px;
+    border-top: 1px solid #000;
+    margin-top: 30px;
 }
 
 
+footer .box .inner-content:nth-child(2) {
+    padding-left: 100px;
+}
 
 footer .box .inner-content:last-child {
     margin-right: 0;
@@ -521,5 +346,25 @@ footer .eire .logo2 {
     top: -80px;
 }
 
+footer #update_footer {
+    display: flex;
 
-/* end */
+}
+
+footer #update_footer p {
+    margin-right: 10px;
+}
+
+footer #update_footer i {
+    font-size: 180%;
+    opacity: 80%;
+    position: relative;
+    top: -5px;
+}
+
+footer #update_footer i:hover {
+    color: var(--color-three);
+}
+
+
+/* end section eleven: FOOTER */
