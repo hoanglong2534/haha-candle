@@ -869,26 +869,44 @@ footer #update_footer i:hover {
 }
 
 
+@media (max-width:1444px) {
+
+    footer #update_footer i{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:1391px ) {
+    footer #update_footer p {
+        margin-right: 5px;
+    }
+    footer #update_footer i{
+        font-size:1rem;
+        position: relative;
+        top: 0;
+    }
+}
+
 /* end section eleven: FOOTER */
 
 
 /* boxchat */
-.boxchat{
+.boxchat {
     position: fixed;
     right: 5px;
     top: 60%;
     z-index: 5;
 }
 
-.boxchat button{
+.boxchat button {
     border-radius: 50%;
 }
 
-.boxchat .btn:hover{
-    background-color:  var(--color-three);
+.boxchat .btn:hover {
+    background-color: var(--color-three);
 }
 
-.boxchat .head{
+.boxchat .head {
     background-color: var(--color-three);
     height: 50px;
     margin-bottom: 200px;
@@ -896,16 +914,17 @@ footer #update_footer i:hover {
     padding-top: 15px;
 }
 
-.boxchat .chat textarea{
+.boxchat .chat textarea {
     width: 210px;
 }
 
-.boxchat .chat{
+.boxchat .chat {
     padding-left: 20px;
 }
 
-.boxchat .card{
-    padding:0;
+.boxchat .card {
+    padding: 0;
     width: 250px;
 }
+
 /* end */
